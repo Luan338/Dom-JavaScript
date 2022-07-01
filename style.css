@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card{
+    background-color: blueviolet;
+    width: 100%;
+    height: 350px;
+    max-width: 300px;
+    margin: 40px auto;
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+
+.login{
+    display: flex;
+
+}
+
+form{
+    background-color: black;    
+    width: 60%;
+}
+
+form input{
+    padding: .4rem;
+    width: 100%;
+    outline: none;
+    border: 1px solid gainsboro;
+}
+
+button{
+    width: 120px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    background-color: green;
+}
+button:hover{
+    opacity: .9;
+}
+
+.patrick{
+    display: none;
+    width: 60%;
+}
+
+.ativo{
+    display: initial;
+}
+
+.cordefundo{
+    background-color: rgb(19, 19, 19);
+}
